@@ -68,9 +68,9 @@
     </div>
   </header>
 
+  <!-- Hero section -->
   <section class="container hero">
     <div class="photo">
-      <!-- Use your actual photo file -->
       <img src="pic.jpg" alt="Thanushi Hasinika Abeysinghe">
     </div>
     <div class="intro">
@@ -78,7 +78,6 @@
       <p class="muted">Biotechnology first-year student at SLIIT — interested in R&D, product development and scientific communication.</p>
       <div class="buttons">
         <a class="btn btn-primary" href="#contact">Get in touch</a>
-        <!-- Use renamed CV file for reliability -->
         <a class="btn btn-ghost" href="Thanushi_CV.pdf" download>Download CV (PDF)</a>
       </div>
       <div style="margin-top:14px;font-size:14px;color:var(--muted)">
@@ -89,13 +88,86 @@
     </div>
   </section>
 
-  <!-- main content unchanged (About, Education, Experience, etc.) -->
+  <!-- Main content -->
+  <main>
+    <div class="grid">
+      <!-- Left column -->
+      <div>
+        <section id="about" class="card">
+          <h2>About Me</h2>
+          <p class="muted">I am a first-year Biotechnology student at SLIIT with strong research interest and practical lab skills such as micropipetting, solution preparation and titrations. I have experience presenting scientific work, writing structured reports and contributing to student events.</p>
+        </section>
 
-  <footer>
-    <div class="small muted">
-      Portfolio created for SC1172 — Introduction to Information Technology.<br>
-      (Content from CV and assignment brief.)
+        <section id="education" class="card" style="margin-top:18px;">
+          <h2>Educational Qualifications</h2>
+          <ul class="simple">
+            <li><strong>Higher Education</strong><br><div class="small">SLIIT — BSc (Hons) Biotechnology (Since 2025)</div></li>
+            <li><strong>Advanced Level | 2024</strong><br><div class="small">Chemistry: C • Biology: S • Physics: S</div></li>
+            <li><strong>Ordinary Level | 2019</strong><br><div class="small">Mathematics A, Science A, English A, Sinhala A, History, Buddhism, Commerce, Dancing, Health Science</div></li>
+          </ul>
+        </section>
+
+        <section id="experience" class="card" style="margin-top:18px;">
+          <h2>Work / Volunteer Experience</h2>
+          <ul class="simple">
+            <li><strong>Laboratory Skills Development — SLIIT Laboratories</strong><br><div class="small">Micropipetting, solution preparation and titrations. Maintained records and prepared scientific reports.</div></li>
+            <li><strong>Volunteer — Sci Fest 2025</strong><br><div class="small">Biotechnology Student’s Club, SLIIT — event management and coordination.</div></li>
+          </ul>
+        </section>
+
+        <section id="projects" class="card" style="margin-top:18px;">
+          <h2>Projects</h2>
+          <div style="margin-top:12px;padding:12px;border-radius:10px;background:#fafafa">
+            <strong>Example — Laboratory Report: Micro-pipetting accuracy</strong>
+            <div class="small">Prepared protocol, executed pipetting series, analyzed results and wrote a structured report.</div>
+          </div>
+        </section>
+
+        <section id="hobbies" class="card" style="margin-top:18px;">
+          <h2>Hobbies & Interests</h2>
+          <ul class="simple" style="border-bottom:0">
+            <li><span class="small">Public speaking (Debate contests), Science outreach, Reading, Dance</span></li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- Right column -->
+      <aside>
+        <div class="card">
+          <h2>Key Skills</h2>
+          <div class="skill"><div>Teamwork</div><div class="bar"><span style="width:88%"></span></div></div>
+          <div class="skill"><div>Critical thinking</div><div class="bar"><span style="width:80%"></span></div></div>
+          <div class="skill"><div>Punctuality</div><div class="bar"><span style="width:90%"></span></div></div>
+          <div class="skill"><div>Adaptability</div><div class="bar"><span style="width:78%"></span></div></div>
+          <div class="skill"><div>Event management</div><div class="bar"><span style="width:70%"></span></div></div>
+          <hr style="border:0;border-top:1px dashed #f0f0f0;margin:14px 0">
+          <strong>Lab Techniques</strong>
+          <ul style="margin:8px 0 0 18px;color:var(--muted);font-size:14px">
+            <li>Micropipetting</li>
+            <li>Solution preparation</li>
+            <li>Titrations</li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:18px">
+          <h2>Languages</h2>
+          <div class="small muted">Sinhala • English • Tamil</div>
+        </div>
+
+        <div id="contact" class="card" style="margin-top:18px">
+          <h2>Contact</h2>
+          <p class="small"><strong>Email:</strong> <a href="mailto:hs25510273@my.sliit.lk">hs25510273@my.sliit.lk</a></p>
+          <p class="small"><strong>Phone:</strong> +94 76 813 7656</p>
+          <p class="small"><strong>Address:</strong> 192/A, Dawatagahawatta road, Kesbewa</p>
+          <p style="margin-top:10px"><a class="btn btn-primary" href="mailto:hs25510273@my.sliit.lk">Email Me</a></p>
+        </div>
+      </aside>
     </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="small muted">Portfolio created for SC1172 — Introduction to Information Technology.<br>(Content from CV and assignment brief.)</div>
     <div style="margin-top:10px">© 2025 Thanushi Abeysinghe</div>
   </footer>
 </body>
